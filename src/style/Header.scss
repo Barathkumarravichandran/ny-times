@@ -1,0 +1,26 @@
+.navbar-nav{
+    gap: 1rem;
+    font-size: 1rem;
+    font-weight: 500
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    animation: fadeInDown 0.5s ease;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    z-index: 1000; 
+    background-color: white; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  }
+  
+  @keyframes fadeInDown {
+    0% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
